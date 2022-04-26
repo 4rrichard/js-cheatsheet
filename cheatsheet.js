@@ -90,7 +90,7 @@ console.log("0" === 0); //minden összehasonlításnál a 3 === kell használni
 const arr = [34, 15, 88, 2]; //ez egy tömb []
 
 for (let index = 0; index < arr.length; index++) {
-  console.log(arr[index]);
+  //let index = 0 innen kezdi a számolást, index < arr.length feltétel, i++ ha vége a loopnak akkor újrakezdi
 }
 
 for (const item of arr) {
